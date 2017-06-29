@@ -1,0 +1,15 @@
+{
+    "name": "santiagomarcos/api.novavida.ti",
+    "description": "API",
+    "type": "API",
+    "require": {
+        "guzzlehttp/guzzle": "6.2.x-dev",
+        "guzzlehttp/psr7": "^1.4@dev"
+    },
+    "authors": [
+        {
+            "name": "Marcos Santiago",
+            "email": "marcos14952010@hotmail.com"
+        }
+    ]
+}
