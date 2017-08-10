@@ -23,9 +23,10 @@ http://you_url/api/?type=cnpj&document=11111111111111 - For CNPJ
 
 ## Configuration:
 
-All sensible data configuration is located at config/config.php file , the file must be something like:
+All sensible data configuration is located at .env file or at machine ENV, the .env file must be something like:
+
 ```ini
-$user = "USUARIO";
-$pass = "SENHA";
-$customer = "CLIENTE";
+usuario =  USUARIO
+senha = "SENHA"
+cliente =  CLIENTE
 ```

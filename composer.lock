@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3155b708aad6a636ec52c4de7bb42373",
+    "content-hash": "e2d0ed85f13a5e7d48cca34f66d89e5a",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -128,12 +128,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "526d8ef63e8701e02216b621e4a3a16085e2286f"
+                "reference": "811b676fbab9c99e359885032e5ebc70e442f5b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/526d8ef63e8701e02216b621e4a3a16085e2286f",
-                "reference": "526d8ef63e8701e02216b621e4a3a16085e2286f",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/811b676fbab9c99e359885032e5ebc70e442f5b8",
+                "reference": "811b676fbab9c99e359885032e5ebc70e442f5b8",
                 "shasum": ""
             },
             "require": {
@@ -185,7 +185,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-06-19 13:30:27"
+            "time": "2017-07-17 09:11:21"
         },
         {
             "name": "psr/http-message",
@@ -236,6 +236,56 @@
                 "response"
             ],
             "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause-Attribution"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2016-09-01T10:05:43+00:00"
         }
     ],
     "packages-dev": [],
